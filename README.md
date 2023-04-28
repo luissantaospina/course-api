@@ -22,7 +22,7 @@ En la aplicación se combina los patrones de arquitectura MVC (Modelo vista cont
 2. [x] Moverse a la carpeta del proyecto `cd course-api`
 3. [x] Instalar dependencias `composer install`
 4. [x] Entrar al proyecto y duplicar el archivo `.env.example` renombrelo así `.env`
-5. [x] **_IMPORTANTE_** en su ambiente local debe crear una base de datos vacia de mariaDB llamada `course`
+5. [x] **_IMPORTANTE_** en su ambiente local debe crear una base de datos vacia de mariaDB llamada `course` con usuario `root` y sin contraseña
 6. [x] Ejecutar migraciones y seeders para crear y llenar las tablas en la base de datos anteriormente creada con `php artisan migrate --seed`
 
 ## Inicio
